@@ -20,6 +20,7 @@
 </script> -->
 
 <script type="text/javascript">
+
 	$(document).ready(function() {
 		$("table").on("click", "tr", function() {
 			//클릭이벤트가 발생한 <tr>의 첫번째 <td>자식의 텍스트
