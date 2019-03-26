@@ -1,0 +1,68 @@
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+th, td:not (:nth-child(2) ) {
+	text-align: center;
+}
+
+td {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+h2 {
+	text-align: center;
+	color: #333;
+	margin: 15px 0;
+}
+
+h6 {
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+}
+
+h6.title {
+	text-align: left;
+}
+
+h4 {
+	text-align: center;
+	color: #333;
+	margin: 10px 0;
+}
+
+div {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	border-top: 3px solid #333
+}
+
+table>thead>tr>th {
+	text-align: center;
+}
+
+table tbody tr td {
+	border: 1px solid #e1e1e1;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 0;
+}
+
+#btnBox {
+	text-align: right;
+}
+
+#btnMain {
+	text-align: left;
+}
+</style>

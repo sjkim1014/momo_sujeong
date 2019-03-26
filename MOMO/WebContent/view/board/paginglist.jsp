@@ -2,24 +2,22 @@
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%-- <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> --%>
 <!DOCTYPE html>
 <html>
 
+<link rel="stylesheet" type="text/css" href="/css/paginglist.css" media="screen" />
+
 <!-- 부트스트랩 3.3.2 -->
-<link rel="stylesheet"
+<!-- <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js">
-	
-</script>
 
-<script type="text/javascript">
-	
-</script>
+</script> -->
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -31,93 +29,10 @@
 	});
 </script>
 
-<style type="text/css">
-th, td:not (:nth-child(2) ) {
-	text-align: center;
-}
+<jsp:include page="../layout/header.jsp" />
 
-td {
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-}
-</style>
-
-<head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-</head>
-<style>
-* {
-	margin: 0;
-	padding: 0;
-}
-
-h2 {
-	text-align: center;
-	color: #333;
-	margin: 15px 0;
-}
-
-h6 {
-	text-align: center;
-	color: #333;
-	font-size: 14px;
-}
-
-h6.title {
-	text-align: left;
-}
-
-h4 {
-	text-align: center;
-	color: #333;
-	margin: 10px 0;
-}
-
-div {
-	width: 800px;
-	margin: 0 auto;
-	margin-top: 30px;
-}
-
-table {
-	border-collapse: collapse;
-	width: 100%;
-	border: 1px solid #e1e1e1;
-	border-top: 3px solid #333
-}
-
-table thead {
-	
-}
-
-table thead tr {
-	
-}
-/*    table thead tr th{font-size:14px; color:blue; padding:10px 0; border:1px solid #e1e1e1} */
-table tbody {
-	
-}
-
-table>thead>tr>th {
-	text-align: center;
-}
-
-table tbody tr td {
-	border: 1px solid #e1e1e1;
-	text-align: center;
-	font-size: 10px;
-	padding: 10px 0;
-}
-
-#btnBox {
-	text-align: right;
-}
-
-#btnMain {
-	text-align: left;
-}
-</style>
 
 <body>
 	<h2>자유게시판</h2>
@@ -186,4 +101,6 @@ table tbody tr td {
 		</div>
 	</div>
 </body>
+
+<jsp:include page="../layout/footer.jsp" />
 </html>
